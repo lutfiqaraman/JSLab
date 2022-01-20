@@ -13,7 +13,7 @@ function getValidatecandidate(candidate, members) {
     if (!member)
         return;
 
-    const hasLegalAge  = member.age > 18;
+    const hasLegalAge = member.age > 18;
 
     if (!hasLegalAge)
         return;
